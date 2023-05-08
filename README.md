@@ -17,10 +17,7 @@ the model will begin to train on the dataset. This program will take roughly 7 h
 able to see how the model performed on the training and testing set as well as a confusion matrix that gives more detail on how 
 the model performed on the testing detail.
 	The other program that can be run is called AIDetection.py. To run this program, you need to have the Classifier_Model 
-folder and this script in the same directory. This folder contains the classifier that I had trained for this project and the 
-program provides an interface through which you can enter essays that you believe are written by an AI and the model will 
-determine the likelihood that this was the case. When you wish to exit the program, you can just type the word exit and the 
-program will terminate.
+folder, the tokenizer.pickle file and this script in the same directory. This folder contains the classifier that I had trained for this project and the program provides an interface through which you can enter essays that you believe are written by an AI and the model will determine the likelihood that this was the case. When you wish to exit the program, you can just type the word exit and the program will terminate.
 
 Implementation Details and Performance Evaluation
 
