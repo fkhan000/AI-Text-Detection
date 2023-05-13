@@ -1,4 +1,4 @@
-##Instructions on Running the Program
+## Instructions on Running the Program
 
 To run the program you need python 3.9.12 or a later version installed. The program doesn’t require any external libraries.
 
@@ -9,7 +9,7 @@ Once it receives it, it will tell you whether or not the sentence is valid accor
 and if it is, it will print out all of the valid parse trees for that sentence and will then ask for another sentence 
 to be parsed. If you ever want to quit the program enter the word quit in all lowercase.
 
-##Implementation Details
+## Implementation Details
 
 The first decision I needed to make in implementing the parser was how I wanted to represent the grammar that the user gives.
 At first, I thought that I could store the grammar in a dictionary mapping the LHS of each rule to its RHS. However, this
